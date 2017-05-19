@@ -1,10 +1,25 @@
-# TwilioClientPhoneGapExampleApp
-Example HTML/CSS/Javascript for the Twilio Client for PhoneGap example. 
+Ionic App Base
+=====================
 
-See https://github.com/jefflinwood/twilio_client_phonegap for the Plugin git repository
+A starting project for Ionic that optionally supports using custom SCSS.
 
-# Installation Instructions
-Follow the Twilio Client Plugin for PhoneGap instructions, and then copy the index.html and phoneApp.js files from this example application into your project.
+## Using this project
 
-# Twilio Capability Token
-Replace the URL at the bottom of phoneApp.js with the URL endpoint of a web service that uses your Twilio credentials to create a capability token - the URL in the javascript file won't work.
+We recommend using the [Ionic CLI](https://github.com/driftyco/ionic-cli) to create new Ionic projects that are based on this project but use a ready-made starter template.
+
+For example, to start a new Ionic project with the default tabs interface, make sure the `ionic` utility is installed:
+
+```bash
+$ npm install -g ionic
+```
+
+Then run: 
+
+```bash
+$ ionic start myProject tabs
+```
+
+More info on this can be found on the Ionic [Getting Started](http://ionicframework.com/getting-started) page and the [Ionic CLI](https://github.com/driftyco/ionic-cli) repo.
+
+## Issues
+Issues have been disabled on this repo, if you do find an issue or have a question consider posting it on the [Ionic Forum](http://forum.ionicframework.com/).  Or else if there is truly an error, follow our guidelines for [submitting an issue](http://ionicframework.com/submit-issue/) to the main Ionic repository.

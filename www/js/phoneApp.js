@@ -50,7 +50,7 @@ $(document).ready(function(){
   };
     
     
-  tokenRequest.open('GET', 'http://yourserver.example.com/twilio-token.php');
+  tokenRequest.open('GET', 'http://0b676274.ngrok.io/api/utilities/twilio/token/');
   tokenRequest.send();
   
 });
